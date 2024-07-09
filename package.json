@@ -1,0 +1,14 @@
+{
+    "name": "order-processing-system",
+    "version": "1.0.0",
+    "description": "Microserviço para processamento de pedidos",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mysql2": "^2.2.5",
+        "amqplib": "^0.8.0"
+    }
+}
